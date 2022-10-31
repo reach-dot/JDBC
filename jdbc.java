@@ -21,6 +21,10 @@ public class UDBDataSourceBind2
         // connection requests.
         ds.setUser("cujo");
         ds.setPassword("newtiger");
+           ds.setUser("cujo2");
+        ds.setPassword("newtiger2");
+           ds.setUser("cujo3");
+        ds.setPassword("newtiger33");
 
         // Retrieve a JNDI context. The context serves
         // as the root for where objects are bound or

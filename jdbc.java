@@ -5,15 +5,24 @@ import java.sql.*;
 import javax.naming.*;
 import com.ibm.db2.jdbc.app.UDBDataSource;
 
-public class UDBDataSourceBind2
+
+
+
+
+public class UDBDataSourceBind23
 {
     public static void main(java.lang.String[] args) 
     throws Exception
     {
         // Create a new UDBDataSource object and give it 
         // a description.
-        UDBDataSource ds = new UDBDataSource();
+       
+         UDBDataSource ds = new UDBDataSource();
+         UDBDataSource ds2 = new UDBDataSource();
         ds.setDescription("A simple UDBDataSource "  +
+                          "with cujo as the default " +
+                          "profile to connect with.");
+               ds2.setDescription("A simple UDBDataSource "  +
                           "with cujo as the default " +
                           "profile to connect with.");
         
